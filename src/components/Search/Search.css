@@ -1,0 +1,25 @@
+.inp{
+    position: absolute;
+    /* top: 20px;
+    right: 10px; */
+    left: 50%;
+    top: 4rem;
+    transform: translate(-50%,0px);
+}
+
+.input{
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 7px;
+    border-top-right-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.651);
+    transition: all 1s;
+}
+
+.input:focus {
+    transition: all 0.7s;
+    background-color: white;
+    border-radius: 7px;
+}

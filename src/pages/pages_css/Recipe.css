@@ -1,0 +1,125 @@
+.Recipe-body{
+    width: 100%;
+    /* background-color: khaki; */
+        height: auto;
+        background-image: url('../../images/bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+.Recipe{
+    width: 95%;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0px);
+
+    padding: 5rem 0 2rem 0;
+    
+    /* background-color: palegreen; */
+}
+
+.divForBg{
+    display: inline-block;
+    background-color: rgba(219, 219, 219, 0.699);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.divForBg>p{
+    padding: 0 80px;
+}
+
+
+.strArea{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.strCategory{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flexRecipe{
+    display: flex;
+}
+.imgDiv{
+    width: 50%;
+    flex: 1;
+}
+
+.imgDiv img{
+    width: 100%;
+}
+
+.inside_flexRecipe{
+    margin-left: 10px;
+    flex: 1;
+}
+
+.ingredients{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.Instructions{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 4%;
+}
+
+.flexRecipe{
+    background-color: rgba(214, 214, 214, 0.753);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .flexRecipe{
+        display: inline;
+    }
+    .imgDiv{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .strArea{
+        text-align: center;
+        font-size: 25px;
+    }
+    .name{
+        text-align: center;
+        font-size: 16px;
+    }
+    .strCategory{
+        text-align: center;
+        font-size: 20px;
+    }
+    .divForBg>p{
+        margin-left: 0;
+    }
+    .divForBg{
+        display: block;
+        background-color: rgba(219, 219, 219, 0.699);
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+    .ingredients{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        background-color: rgba(214, 214, 214, 0.753);
+    border-radius: 20px;
+    padding: 10px;
+    }
+    
+    .Instructions{
+        font-family: 'Roboto', sans-serif;
+        margin-top: 4%;
+        background-color: rgba(214, 214, 214, 0.753);
+    border-radius: 20px;
+    padding: 10px;
+    }
+}

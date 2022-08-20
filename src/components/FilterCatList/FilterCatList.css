@@ -1,0 +1,19 @@
+.FilterCatList-body{
+    width: 100%;
+    height: auto;
+    background-image: url('../../images/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.FilterCatList{
+    width: 98%;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0px);
+
+    padding-top: 5rem;
+    display: flex;justify-content: space-around;
+    flex-wrap: wrap;
+}

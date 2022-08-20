@@ -1,0 +1,24 @@
+.CategoryList-body{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-image: url('../../images/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.CategoryList{
+    width: 95%;
+    /* -- horizon center -- */
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    /* ---- */
+    padding-top: 5.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+    /* background-color: rgb(255, 213, 234); */
+}

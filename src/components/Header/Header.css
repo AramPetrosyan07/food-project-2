@@ -1,0 +1,118 @@
+.active{
+    color: red;
+}
+
+.Header {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    font-size: 2rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.Header i{
+    display: none;
+}
+
+
+.Header a{
+    margin: 0 0.4rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: wheat;
+}
+
+.Header a.active{
+    color: aqua;
+    text-decoration: underline;
+}
+.mobileBg{
+    display: none;
+}
+.classNone a{
+    display: none;
+    }
+
+/* -------------- */
+@media screen and (max-width:600px) {
+    .mobileBg{
+        display: block;
+    }
+    
+    
+.mobileHeader{
+    display: block;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    font-size: 2rem;
+    padding: 0.5rem;
+    transition: all 0.5s;
+
+}
+
+.mobileHeader>a{
+    display: none;
+}
+
+.mobileHeader i{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0px;
+    font-size: 50px;
+    cursor: pointer;
+    z-index: 30;
+    transition: all 0.5s;
+}
+
+.brgerIsWhitw{
+    color: white;
+}
+
+.mobileBg{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(59, 59, 59, 0.692);
+    z-index: 20;
+    transition: all 0.5s;
+
+}
+
+.linkes{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.linkes a{
+    margin: 0 auto;
+    position:relative;
+    top: 20%;
+}
+
+.linkes a{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 50px;
+    color: rgb(255, 222, 160);
+}
+
+.linkes a.active{
+    color: rgb(255, 177, 31);
+    text-decoration: underline;
+    transition: all 0.8s;
+
+}
+
+.classNone a{
+display: none;
+}
+}

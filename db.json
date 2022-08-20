@@ -1,0 +1,10 @@
+{
+    "goods": [
+      { "id": 1, "name": "Angular", "price": 1500, "count": 0, "image": "https://via.placeholder.com/600/92c952"},
+      { "id": 2, "name": "React", "price": 1600, "count": 0, "image": "https://via.placeholder.com/600/771796"},
+      { "id": 3, "name": "Vue", "price": 1700, "count": 0, "image": "https://via.placeholder.com/600/24f355"}
+    ],
+    "cars": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ]
+  }

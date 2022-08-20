@@ -1,0 +1,131 @@
+.BasketBody{
+    width: 85%; 
+    height: 65%;
+    background-color: rgba(233, 233, 233, 0.582);
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.displayNone{
+    display: none;
+}
+
+.basketPopup{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;    
+    height: 93%;
+    background-color: rgba(82, 82, 82, 0.61);
+    overflow-y: scroll;
+    border-radius: 20px;
+}
+
+.Basket{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.733);
+    border-radius: 100px;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.fa-basket-shopping{
+    width: 57px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 50px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+}
+
+.basketItem{
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-family: "roboto";
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemLeft>p{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.itemLeft>img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.itemRight{
+    height: 60px;
+    position: relative;
+    top: 35%;
+    left: 10%;
+    transform: translate(-50%, 0px);
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ------- btn style */
+
+.itemRight>button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin: 0 5px;
+    font-size: 20px;
+    columns: rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+.itemRight>span{
+    margin-top: 8px;
+    font-size: 25px;
+}
+
+.count{
+    color: rgb(214, 214, 214);
+    margin-top: 22px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+@media screen and (max-width:600px) {
+    .itemRight>button{
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 0 auto;
+    }
+    .itemRight>span{
+        margin-top: 2px;
+        font-size: 20px;
+    }
+    .itemRight{
+        position: relative;
+        transform: translate(-20px, 0px);
+        right: 00px;
+        top: 70px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
